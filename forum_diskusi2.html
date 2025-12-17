@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Syafikri</title>
+
+  <style>
+    
+    body {
+      font-family: 'Poppins', sans-serif;      
+      margin: 0;                               
+      padding: 0;                              
+      background: linear-gradient(135deg, #1f2937, #111827); 
+      color: white;                            
+    }
+
+    header {
+      background-color: #111827;
+      text-align: center;                      
+      padding: 30px 10px;
+      border-bottom: 3px solid #22d3ee;        
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);  
+    }
+
+    header h1 {
+      font-size: 2.2em;                        
+      letter-spacing: 2px;
+      margin: 0;
+      color: #22d3ee;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #0f172a;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #22d3ee;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;                        
+    }
+
+    nav a:hover {
+      color: #a5f3fc;
+    }
+
+    .container {
+      padding: 40px 20px;
+      display: flex;                           
+      flex-wrap: wrap;
+      justify-content: center;                 
+      gap: 30px;                               
+    }
+
+    .card {
+      background-color: #1e293b;
+      width: 300px;                           
+      border-radius: 15px;                     
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;                          
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #22d3ee;
+      color: #111827;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #67e8f9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0f172a;
+      border-top: 3px solid #22d3ee;
+      color: #a5f3fc;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Syafikri Rahadiansyah</h1>
+    <p>Web Developer | UI Designer | Dreamer</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Tentang Saya</a>
+    <a href="#">Projek</a>
+    <a href="#">Kontak</a>
+  </nav>
+
+  <section class="container">
+    <div class="card">
+      <img src="foto sekolah 2.jpg" alt="Project 1">
+      <h3>Website Sekolah</h3>
+      <p>Website modern untuk profil sekolah dengan tampilan responsif.</p>
+      <a href="#" class="btn">Lihat Detail</a>
+    </div>
+
+    <div class="card">
+      <img src="olshop 2.jpg" alt="Project 2">
+      <h3>Online Shop</h3>
+      <p>Desain e-commerce elegan dengan fitur keranjang belanja.</p>
+      <a href="#" class="btn">Lihat Detail</a>
+    </div>
+
+    <div class="card">
+      <img src="web design.jpg" alt="Project 3">
+      <h3>Website Portfolio</h3>
+      <p>Menampilkan karya, skill, dan pengalaman profesional.</p>
+      <a href="#" class="btn">Lihat Detail</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Syafikri Rahadiansyah | Dibuat dengan ❤️</p>
+  </footer>
+
+</body>
+</html>
